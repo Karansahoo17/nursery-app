@@ -1,0 +1,51 @@
+// data/plants.js
+export const plants = [
+  {
+    id: 1,
+    name: "Snake Plant",
+    price: 15,
+    group: ["Air Purifying"],
+    description: "Low light, easy-care air purifier.",
+    image: "https://via.placeholder.com/100",
+  },
+  {
+    id: 2,
+    name: "Lavender",
+    price: 18,
+    group: ["Aromatic"],
+    description: "Aromatic herb with soothing scent.",
+    image: "https://via.placeholder.com/100",
+  },
+  {
+    id: 3,
+    name: "Peace Lily",
+    price: 22,
+    group: ["Air Purifying", "Aromatic"],
+    description: "Elegant plant that cleans the air.",
+    image: "https://via.placeholder.com/100",
+  },
+  {
+    id: 4,
+    name: "Spider Plant",
+    price: 14,
+    group: ["Air Purifying"],
+    description: "Fast-growing and great for removing toxins.",
+    image: "https://via.placeholder.com/100",
+  },
+  {
+    id: 5,
+    name: "Aloe Vera",
+    price: 19,
+    group: ["Medicinal", "Air Purifying"],
+    description: "Soothing succulent with healing gel.",
+    image: "https://via.placeholder.com/100",
+  },
+  {
+    id: 6,
+    name: "Jasmine",
+    price: 20,
+    group: ["Aromatic"],
+    description: "Sweet-smelling flowers that bloom indoors.",
+    image: "https://via.placeholder.com/100",
+  },
+];
